@@ -1,0 +1,10 @@
+version: '3'
+services:
+  vysiter-room:
+    image: "qweasd1z1z/vysiter-room-host"
+    ports:
+         - "3500:3500"
+  vysiter-signal:
+      image: "qweasd1z1z/vysiter-signal-host"
+      ports:
+           - "3501:3501"
