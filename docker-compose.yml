@@ -4,7 +4,11 @@ services:
     image: "qweasd1z1z/vysiter-room-host"
     ports:
          - "8080:3500"
+    volumes:
+      - file:/file
   vysiter-signal:
       image: "qweasd1z1z/vysiter-signal-host"
       ports:
-           - "8081:3501"
+           - "8002:3501"
+volumes:
+  file:
