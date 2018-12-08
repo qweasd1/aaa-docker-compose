@@ -1,0 +1,1 @@
+/opt/janus/bin/janus && cd && docker-compose up -d
